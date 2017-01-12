@@ -25,11 +25,12 @@ app.use(async(ctx, next) => {
       <title></title>\
     </head>\
     <body>\
-      hello koa\
+      hello koa78787\
       <script src="js/index.js"></script>\
     </body>\
     </html>\
   '
 })
-
-app.listen(8888)
+let port=34567
+app.listen(port)
+console.log(`localhost:${port}`)

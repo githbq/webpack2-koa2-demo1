@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node --harmony example/"
+    "start": "nodemon  --config ./nodemon.json"
   },
   "keywords": [
     "koa",
@@ -27,7 +27,7 @@
   "dependencies": {
     "koa": "next",
     "koa-compose": "next",
-    "webpack": "^1.13.3",
+    "webpack": "^1.14.0",
     "webpack-dev-middleware": "^1.8.4",
     "webpack-hot-middleware": "^2.13.2"
   }
