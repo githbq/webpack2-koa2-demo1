@@ -1,7 +1,6 @@
 'use strict'
-
 if (module.hot) {
   module.hot.accept()
 }
 
-console.log('hello ...')
+alert(111)

@@ -12,7 +12,7 @@ module.exports = {
   },
   output: {
     path: resolve('../example/build'), // 执行webpack的时候输出的文件路径
-    publicPath: '/js/',
+    publicPath: '/static/',
     filename: '[name].js', // 执行webpack的时候输出的文件名
     chunkFilename: '[name].js'
   },
