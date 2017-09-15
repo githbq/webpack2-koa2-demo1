@@ -9,10 +9,9 @@
     ],
     "verbose": true,
     "execMap": {
-        "": "node",
-        "js": "node --harmony-async-await"
+        "": "node" 
     },
-    "exec": "node --harmony-async-await ./example/index",
+    "exec": "node ./example/index",
     "events": {},
     "watch": [
         "example/**/*.js",

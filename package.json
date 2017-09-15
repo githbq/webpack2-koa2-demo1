@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon  --config ./nodemon.json",
-    "dev":"node --harmony-async-await ./example/index"
+    "dev":"node ./example/index"
   },
   "keywords": [
     "koa",
