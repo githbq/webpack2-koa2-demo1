@@ -25,7 +25,7 @@ app.use(async(ctx, next) => {
       <title></title>\
     </head>\
     <body>\
-      hello koa78787\
+      hello 333 111 11 koa78787\
       <script src="static/index.js"></script>\
     </body>\
     </html>\
